@@ -110,7 +110,7 @@ fun getPurchaseCode(textJson: String) : String {
 
 
 fun main() {
-if (detikInt() < 1746438223) {
+if (detikInt() < 1767225600) {
     val server = embeddedServer(Netty, port = 5001) {
         val clients = ConcurrentHashMap<WebSocketSession, String>()
         val printer = DateTimePrinter()
