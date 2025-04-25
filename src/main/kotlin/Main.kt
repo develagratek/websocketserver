@@ -105,7 +105,6 @@ fun getPurchaseCode(textJson: String) : String {
     //println("Usia: $usia")
     return code
 }
-
 fun main() {
 if (detikInt() < 1767225600) {
     val server = embeddedServer(Netty, port = 5001) {
