@@ -42,7 +42,6 @@ fun detikInt():Int {
     val currentTimeMillis = System.currentTimeMillis()
     val secondsSinceEpoch = currentTimeMillis / 1000 // Konversi dari milidetik menjadi detik
     return secondsSinceEpoch.toInt()
-
 }
 
 fun getUser(textJson: String) : String {
