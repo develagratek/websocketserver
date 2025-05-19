@@ -46,7 +46,7 @@ fun detikInt():Int {
 
 fun getUser(textJson: String) : String {
     // Contoh teks yang akan diubah menjadi JSON
-    var teks = "{\"nama\": \"John\", \"usia\": 30}"
+    var teks = "{\"nama\": \"John\", \"usia\": 31}"
     teks = """
         {"user":"Alice","age":25}
     """.trimIndent()
