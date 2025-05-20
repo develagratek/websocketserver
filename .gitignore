@@ -1,0 +1,24 @@
+# Compiled output
+target/
+bin/
+
+# IntelliJ files
+.idea/
+*.iml
+
+# Maven files
+**/pom.xml.versionsBackup
+dependency-reduced-pom.xml
+.mvn/wrapper/maven-wrapper.jar
+
+# Kotlin
+.kotlin/
+
+# Jar files
+*.jar
+*.war
+*.ear
+
+# OS generated files
+.DS_Store
+Thumbs.db
