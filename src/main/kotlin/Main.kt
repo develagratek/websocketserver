@@ -43,6 +43,8 @@ fun detikInt():Int {
     val secondsSinceEpoch = currentTimeMillis / 1000 // Konversi dari milidetik menjadi detik
     return secondsSinceEpoch.toInt()
 }
+
+
 fun getUser(textJson: String) : String {
     // Contoh teks yang akan diubah menjadi JSON
     var teks = "{\"nama\": \"John\", \"usia\": 31}"
