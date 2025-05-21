@@ -44,7 +44,6 @@ fun detikInt():Int {
     return secondsSinceEpoch.toInt()
 }
 
-
 fun getUser(textJson: String) : String {
     // Contoh teks yang akan diubah menjadi JSON
     var teks = "{\"nama\": \"John\", \"usia\": 31}"
