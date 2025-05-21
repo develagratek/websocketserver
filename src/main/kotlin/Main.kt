@@ -66,7 +66,6 @@ fun getUser(textJson: String) : String {
 }
 
 
-
 fun getPurchaseInvoice(textJson: String) : String {
     // Contoh teks yang akan diubah menjadi JSON
 
