@@ -42,14 +42,13 @@ fun detikInt():Int {
     val currentTimeMillis = System.currentTimeMillis()
     val secondsSinceEpoch = currentTimeMillis / 1000 // Konversi dari milidetik menjadi detik
     return secondsSinceEpoch.toInt()
-
 }
 
 fun getUser(textJson: String) : String {
     // Contoh teks yang akan diubah menjadi JSON
-    var teks = "{\"nama\": \"John\", \"usia\": 30}"
+    var teks = "{\"nama\": \"John\", \"usia\": 31}"
     teks = """
-        {"user":"Alice","age":25}
+        {"user":"Alice","age":26}
     """.trimIndent()
     println("---------- $textJson")
     teks = textJson
@@ -65,8 +64,6 @@ fun getUser(textJson: String) : String {
     //println("Usia: $usia")
     return user
 }
-
-
 
 fun getPurchaseInvoice(textJson: String) : String {
     // Contoh teks yang akan diubah menjadi JSON
